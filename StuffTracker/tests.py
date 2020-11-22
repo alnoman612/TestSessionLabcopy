@@ -34,7 +34,7 @@ class StuffStrTest(TestCase):
     def test_something(self):
         session = self.client.session
 
-        session['somekey'] = 'test'
+        session['current'] = 'admin'
 
         session.save()
 
